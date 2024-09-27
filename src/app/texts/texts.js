@@ -1,9 +1,10 @@
-const title = "Titulo del emprendimiento";
-const email = "Email del emprendimiento";
+const title = "Antony Kids";
+const email = "antonykids719@gmail.com";
 const mensajeWhatsApp = encodeURIComponent(
-    `¡Hola! Estoy muy interesado en tus productos de ${title} y me gustaría recibir más información sobre ellos. Espero poder hablar pronto contigo para aclarar algunas dudas. ¡Gracias!`
+    "¡Hola! Estoy interesado en conocer más sobre los productos de " + title + " y me gustaría obtener más información. ¡Gracias!"
 );
-const numeroWhatsApp = "Numero del emprendimiento";
+const numeroWhatsApp = "+573208344384";
+
 const textos = {
     index: {
         title: title,
@@ -12,25 +13,25 @@ const textos = {
         title: title,
     },
     about: {
-        description1: "Descripción del emprendimiento parrafo uno",
-        description2: "Descripcion del emprendimiento parrafo dos"
+        description1: "En Antony Kids, nos especializamos en la confección de chaquetas para niños. Nuestros diseños infantiles están pensados para brindar comodidad y estilo a los más pequeños.",
+        description2: "Cada prenda de Antony Kids combina calidad y creatividad, ofreciendo a los niños la oportunidad de lucir lo último en moda infantil. ¡Descubre nuestros nuevos diseños y vístete de alegría!"
     },
     contact: {
         whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`,
-        email: email
+        email: email,
     },
     footer: {
-        slogan:{
-            p1: "slogan del emprendimiento parrafo uno",
-            p2: "slogan del emprendimiento parrafo dos"
+        slogan: {
+            p1: "Antony Kids: nuevos diseños infantiles.",
+            p2: ""
         },
-        address: "Dirección del emprendimiento",
+        address: "", // Información no proporcionada
         phone: numeroWhatsApp,
         email: email,
-        facebook: "https://www.facebook.com/",
-        instagram: "https://www.instagram.com/",
-        whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`
+        facebook: "https://www.facebook.com/profile.php?id=61566371840076&mibextid=ZbWKwL", // Facebook proporcionado
+        instagram: "www.instagram.com", // Instagram no proporcionado
+        whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`,
     },
-
 };
+
 export default textos;
